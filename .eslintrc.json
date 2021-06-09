@@ -13,7 +13,7 @@
   },
   "plugins": ["vue", "@typescript-eslint"],
   "settings": {
-    "packageManager": "pnpm"
+    "packageManager": "yarn"
   },
   "rules": {
     "no-console": "warn",

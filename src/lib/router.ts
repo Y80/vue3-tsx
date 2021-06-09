@@ -1,7 +1,7 @@
 import * as Router from 'vue-router';
 
 export default Router.createRouter({
-  history: Router.createWebHashHistory(),
+  history: Router.createWebHashHistory('/vue3-tsx/'),
   routes: [
     {
       path: '/',

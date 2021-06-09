@@ -33,4 +33,5 @@ export default defineConfig({
     jsxFactory: 'h',
     jsxFragment: 'Fragment',
   },
+  publicDir: '/vue3-tsx/',
 });
