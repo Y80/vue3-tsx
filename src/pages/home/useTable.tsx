@@ -28,8 +28,8 @@ export function useTable() {
     total: 0,
     showSizeChanger: true,
     pageSizeOptions: ['5', '10', '20', '50'],
-    onChange: null,
-    onShowSizeChange: null,
+    onChange: undefined,
+    onShowSizeChange: undefined,
   });
   const outerParamsCache = ref();
 

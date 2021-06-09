@@ -1,7 +1,6 @@
 import { defineComponent } from 'vue';
 import { Dropdown, Layout, Menu } from 'ant-design-vue';
 import { RouterView } from 'vue-router';
-import HeaderLogo from '@/assets/images/header-logo.png';
 import classes from '@styles/pages/dashboard.module.scss';
 import UserIcon from '@/assets/images/user.png';
 import ArrowIcon from '@/assets/images/arrow.png';
@@ -14,7 +13,6 @@ export default defineComponent({
       <Layout class={classes.dashboard}>
         <Layout.Header>
           <div class="left">
-            <img src={HeaderLogo} alt="" />
             <span>驾驶舱权限管理后台</span>
           </div>
           <Dropdown
