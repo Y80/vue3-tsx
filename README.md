@@ -1,5 +1,5 @@
 # Vue3 + TSX 项目模板
-相关技术：
+## 相关技术栈
 - Vue3
 - Vite
 - TSX(TypeScript + JSX)
@@ -24,3 +24,6 @@ $yarn build
 ```bash
 $yarn preview
 ```
+
+## CI/CD
+通过 Github Actions 自动打包部署至仓库 gh-pages 分支下，访问地址：https://lccl.cc/vue3-tsx

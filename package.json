@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "repository": "https://github.com/y80/vue3-tsx.git",
   "homepage": "https://y80.github.io/vue3-tsc",
+  "description": "项目模板，使用了Vue3+Vite+TSX+AntdV+Sass",
   "scripts": {
     "dev": "vite --port 9880",
     "build": "vue-tsc --noEmit && vite build",
