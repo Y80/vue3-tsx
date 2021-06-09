@@ -1,0 +1,30 @@
+@import './custom-ant.scss';
+@import './classes.scss';
+
+body {
+  background-color: rgba(240, 242, 245, 1) !important;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:-webkit-autofill {
+  -webkit-transition-duration: 9999999s;
+  -webkit-transition-property: background color;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #d2cfcf;
+}

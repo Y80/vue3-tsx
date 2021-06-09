@@ -1,0 +1,27 @@
+.dashboard {
+  :global .ant-layout-header {
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      margin-left: 30px;
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    .right {
+      cursor: pointer;
+      img:last-child {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  :global .ant-layout-content {
+    overflow-y: auto;
+    padding: 1rem;
+    max-height: calc(100vh - 64px);
+  }
+}

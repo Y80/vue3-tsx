@@ -1,0 +1,31 @@
+.section {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1440px;
+
+  &:nth-child(2) > p {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  :global span.enable-tag {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 6px;
+      left: -15px;
+      width: 5px;
+      height: 5px;
+      border-radius: 99px;
+      content: ' ';
+    }
+
+    &.enable::before {
+      background-color: green;
+    }
+    &.disable::before {
+      background-color: red;
+    }
+  }
+}
