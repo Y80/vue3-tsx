@@ -1,0 +1,16 @@
+# prettier 更多配置 https://prettier.io/docs/en/options.html
+
+# 一行的字符数
+printWidth: 80
+# 箭头函数的参数永远使用括号包裹
+arrowParens: always
+# 使用单引号而非双引号
+singleQuote: true
+# 行尾是否跟随分号
+semi: true
+# 使用tab进行缩进
+useTabs: false
+# 一个tab表示几个空格
+tabWidth: 2
+# 大括号内部是否有空格，效果：{ foo: 100 }
+bracketSpacing: true

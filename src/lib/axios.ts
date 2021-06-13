@@ -3,11 +3,11 @@ import axios, { AxiosError, AxiosRequestConfig, AxiosResponse } from 'axios';
 import router from './router';
 import store from './store';
 
-enum HTTPCode {
-  RequestError = 400,
-  InvalidToken = 401,
-  NotFound = 404,
-}
+const HTTPCode = {
+  RequestError: 400,
+  InvalidToken: 401,
+  NotFound: 404,
+};
 
 const customRequestConfig: AxiosRequestConfig = {
   baseURL: 'https://jsonplaceholder.typicode.com/',
