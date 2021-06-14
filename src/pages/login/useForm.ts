@@ -20,8 +20,8 @@ const rules: Record<string, ValidationRule> = {
 
 export function useForm() {
   const model = reactive({
-    username: '',
-    password: '',
+    username: 'admin',
+    password: '123456',
   });
   const submitting = ref(false);
 

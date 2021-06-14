@@ -13,8 +13,6 @@ import { useSearchForm } from './useSearchForm';
 import { useTable } from './useTable';
 import { useModal } from './useModal';
 
-export default defineComponent({ setup });
-
 function setup() {
   const table = useTable();
   const modal = useModal();
@@ -28,7 +26,7 @@ function setup() {
     table.fetchData();
   }
 
-  table.fetchData();
+  // table.fetchData();
 
   function handleAddAccount() {
     modal.handleAddUser().then(table.fetchData);
@@ -144,3 +142,5 @@ function setup() {
     </>
   );
 }
+
+export default defineComponent({ setup });

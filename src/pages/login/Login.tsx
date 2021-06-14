@@ -16,8 +16,6 @@ function setup() {
         onFinishFailed={form.handleFinishFailed}
         labelCol={{ span: 4 }}
         wrapperCol={{ span: 20 }}
-        hideRequiredMark
-        colon={false}
       >
         <Form.Item label="账号" name="username">
           <Input

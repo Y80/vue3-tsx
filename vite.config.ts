@@ -26,6 +26,7 @@ export default defineConfig({
     alias: {
       '@': '/src',
       '@styles': '/src/assets/styles',
+      '@interface': '/src/interface',
     },
   },
 
